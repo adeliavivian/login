@@ -1,0 +1,131 @@
+body {
+  background: #f0f0f0;
+  font-family: 'Arial', sans-serif;
+}
+
+.login-container {
+  background: #ccc;
+  width: 350px;
+  margin: 80px auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h1 {
+  background: #b0b0b0;
+  padding: 10px;
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #555;
+}
+
+.forgot-link {
+  font-size: 12px;
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+.btn-entrar {
+  width: 100%;
+  background: #444;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.btn-entrar:hover {
+  background: #333;
+}
+
+.social-section p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-social {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#facebook {
+  width: 20%;
+  height: auto;
+}
+
+#google {
+  width: 15%;
+  height: auto;
+}
+#apple {
+  width: 20%;
+  height: auto;
+}
+
+
+
+.signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-text a {
+  color: #3366cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
