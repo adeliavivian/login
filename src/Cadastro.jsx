@@ -1,31 +1,37 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./App.css";
+import { Link } from "react-router";
 
-
-function App() {
+function Cadastro() {
   return (
     <>
       <div>
-        <h1>
+    
     <div className="box">
-      <h1>LOGIN</h1>
+      <h1>CADASTRO</h1>
 
       <form>
-        <label>Usuário:</label>
+        <label>Nome:</label>
         <input type="text" />
 
-        <label>Senha:</label>
-        <input type="password" />
+        <label>E-mail:</label>
+        <input type="email" />
 
-        <div className="linha1">
-          <label>
-            <input type="checkbox" /> Manter conectado
-          </label>
-          <a href="#">esqueceu a senha?</a>
+        <label>CPF:</label>
+        <input type="text" />
+
+        <div className="linha div">
+          <div>
+            <label>Usuário:</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label>Senha:</label>
+            <input type="password" />
+          </div>
         </div>
 
-        <button type="button">ENTRAR</button>
+        <button type="button">CADASTRAR</button>
       </form>
 
       <p className="social-title">Logar com</p>
@@ -34,17 +40,14 @@ function App() {
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Google" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" alt="Apple" />
       </div>
-
       <p className="trocar">
-        Não tem conta?{" "}
-        <Link to="/cadastro">Inscreva-se</Link>
+        Já tem conta?{" "}
+        <Link to="/">Logar</Link>
       </p>
     </div>
-
-</h1>
       </div>
     </>
   );
 }
 
-export default App;
+export default Cadastro;

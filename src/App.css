@@ -1,131 +1,127 @@
 body {
-  background: #f0f0f0;
-  font-family: 'Arial', sans-serif;
+  background-color: #d9d9d9;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-.login-container {
-  background: #ccc;
-  width: 350px;
-  margin: 80px auto;
-  padding: 25px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: #ccc;
+  padding: 30px;
+  border-radius: 25px;
+  width: 320px;
   text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-  background: #b0b0b0;
-  padding: 10px;
   font-size: 32px;
   font-weight: 900;
   margin-bottom: 20px;
-  border-radius: 8px;
+}
+
+form {
+  text-align: left;
+  font-weight: bold;
 }
 
 label {
   display: block;
-  text-align: left;
-  margin: 10px 0 5px;
-  font-weight: bold;
+  margin-top: 10px;
 }
 
 input[type="text"],
+input[type="email"],
 input[type="password"] {
   width: 100%;
-  padding: 10px;
-  border-radius: 6px;
+  padding: 8px;
+  margin-top: 5px;
   border: none;
-  margin-bottom: 10px;
+  border-radius: 6px;
 }
 
-.options {
+.linha {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
+  margin-top: 8px;
 }
 
-.checkbox {
+.linha1{
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 5px;
-  color: #555;
+  margin-top: 8px;
+  font-size: 15px;
 }
 
-.forgot-link {
-  font-size: 12px;
-  color: #3366cc;
-  text-decoration: none;
-}
-
-.forgot-link:hover {
-  text-decoration: underline;
-}
-
-.btn-entrar {
+button {
+  background-color: #555;
+  color: white;
+  font-weight: bold;
   width: 100%;
-  background: #444;
-  color: #fff;
-  padding: 10px;
   border: none;
-  border-radius: 10px;
-  font-weight: bold;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 8px;
   cursor: pointer;
-  margin-bottom: 15px;
 }
 
-.btn-entrar:hover {
-  background: #333;
+.linha {
+  display: flex;
+  justify-content: space-between; 
+  gap: 10px; 
+  margin-top: 10px;
 }
 
-.social-section p {
+.linha div {    
+  flex: 1;
+  justify-content: space-between; 
+  padding: 8px;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.social-title {
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-top: 15px;
 }
 
-.social-buttons {
+.social-icons {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
+  margin-top: 8px; 
 }
 
-.btn-social {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: none;
-  color: white;
-  font-size: 20px;
+.social-icons img {
+  width: 28px;
   cursor: pointer;
 }
 
-#facebook {
-  width: 20%;
-  height: auto;
-}
-
-#google {
-  width: 15%;
-  height: auto;
-}
-#apple {
-  width: 20%;
-  height: auto;
-}
-
-
-
-.signup-text {
+.trocar {
   margin-top: 15px;
+  font-weight: bold;
   font-size: 14px;
 }
 
-.signup-text a {
-  color: #3366cc;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.signup-text a:hover {
+.Link {
+  color: blue;
   text-decoration: underline;
+  cursor: pointer;
+  font-weight: normal;
+}
+.linha a {
+  font-size: 12px;
 }
